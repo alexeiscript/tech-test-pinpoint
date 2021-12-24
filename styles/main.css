@@ -3,6 +3,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 fieldset,
@@ -59,11 +60,48 @@ a {
   display: flex;
 }
 
+.btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #2fa38e;
+  transition: 0.2s;
+}
+
+.primary:hover {
+  background-color: #53c0ac;
+}
+
+.glassdoor {
+  background-color: #0caa40;
+  transition: 0.2s;
+}
+
+.glassdoor:hover {
+  background-color: #25bd57;
+}
+
+.wide {
+  min-width: 130px;
+}
+
+.gt {
+  color: #fff;
+}
+
 /* Header */
 header {
   justify-content: space-between;
   align-items: center;
-  padding: 0 4%;
+  padding: 0 3%;
   height: 130px;
   width: 100%;
 }
@@ -78,6 +116,13 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+nav ul li a:hover {
+  color: #2fa38e;
 }
 
 @media screen and (max-width: 900px) {
