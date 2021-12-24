@@ -1,30 +1,10 @@
 /* Normalize */
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-fieldset,
-input,
-textarea,
-p,
-blockquote,
-th,
-td {
-  margin: 0;
+* {
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
+
 fieldset,
 img {
   border: 0;
@@ -83,7 +63,9 @@ a {
 header {
   justify-content: space-between;
   align-items: center;
-  padding: 40px 50px;
+  padding: 0 4%;
+  height: 130px;
+  width: 100%;
 }
 
 .logo img {
@@ -96,4 +78,14 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    height: 100px;
+  }
+
+  .logo img {
+    height: 45px;
+  }
 }
