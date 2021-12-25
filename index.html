@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="styles/mobile-nav.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -37,7 +39,7 @@
     </header>
     <main>
       <!-- BANNER SECTION -->
-      <section class="banner flex">
+      <section class="banner flex column">
         <div>
           <h1>Find your next job with GoCo</h1>
           <button class="btn primary wide">
@@ -47,133 +49,150 @@
         </div>
       </section>
       <section class="whoWeAre">
-        <div>
-          <h1>Join us as we save time and money for people everywhere</h1>
-          <p>
-            Since 2006, we've been disrupting the insurance industry to save
-            millions of people masses of money. We're looking for talented,
-            ambitious and friendly faces to help us achieve our mission. We have
-            a wide range of roles across GoCo as we're constantly growing. So,
-            if you've got the skills and passion, we want to hear from you!
-          </p>
-          <button class="btn primary wide">
-            Who we are
-            <p class="gt">></p>
-          </button>
-        </div>
-        <div>
-          <img src="assets/companies.png" alt="" />
+        <div class="container flex">
+          <div class="text flex column">
+            <h1>Join us as we save time and money for people everywhere</h1>
+            <p>
+              Since 2006, we've been disrupting the insurance industry to save
+              millions of people masses of money. We're looking for talented,
+              ambitious and friendly faces to help us achieve our mission. We
+              have a wide range of roles across GoCo as we're constantly
+              growing. So, if you've got the skills and passion, we want to hear
+              from you!
+            </p>
+            <button class="btn primary wide">
+              Who we are
+              <p class="gt">></p>
+            </button>
+          </div>
+          <div class="image flex">
+            <img src="assets/companies.png" alt="" />
+          </div>
         </div>
       </section>
       <!-- BANNER SECTION END -->
       <section class="team">
-        <div>
-          <img src="assets/team.jpeg" alt="" />
-        </div>
-        <div>
-          <h1>Collaborate, innovate and be proud</h1>
-          <p>
-            We want every member of staff to be happy, healthy and successful
-            with us. This is the case whether they're in our office or working
-            from home (which we've all been doing throughout the COVID-19
-            pandemic). Get ready to be true to yourself, to support your
-            teammates, to think beyond the limits of what's been done before and
-            to give things your best shot. Our staff are at the heart of
-            everything we do, so we'll support you at every step of your GoCo
-            journey.
-          </p>
-          <button class="btn primary wide">
-            #LifeatGoCo
-            <p class="gt">></p>
-          </button>
+        <div class="container flex">
+          <div class="image flex">
+            <img src="assets/team.jpeg" alt="" />
+          </div>
+          <div class="text">
+            <h1>Collaborate, innovate and be proud</h1>
+            <p>
+              We want every member of staff to be happy, healthy and successful
+              with us. This is the case whether they're in our office or working
+              from home (which we've all been doing throughout the COVID-19
+              pandemic). Get ready to be true to yourself, to support your
+              teammates, to think beyond the limits of what's been done before
+              and to give things your best shot. Our staff are at the heart of
+              everything we do, so we'll support you at every step of your GoCo
+              journey.
+            </p>
+            <button class="btn primary wide">
+              #LifeatGoCo
+              <p class="gt">></p>
+            </button>
+          </div>
         </div>
       </section>
       <section class="careers">
-        <div>
-          <h1>Grow your GoCo career</h1>
-          <p>
-            We don't sit still, so neither should you have to. We strive to help
-            our staff further their careers, find enjoyment in what they do and
-            upskill their abilities. If you're interested in embetterment
-            through things like on-the-job degree programmes, mentorship
-            sessions, career change schemes and personal development plans,
-            you'll love what we have to offer.
-          </p>
-          <button class="btn primary wide">
-            Employment journeys &nbsp;
-            <p class="gt">></p>
-          </button>
-        </div>
-        <div>
-          <h1>Follow Emma's journey to finding her place at GoCo</h1>
-          <button class="btn primary wide">
-            Read
-            <p class="gt">></p>
-          </button>
+        <div class="container flex">
+          <div class="text">
+            <h1>Grow your GoCo career</h1>
+            <p>
+              We don't sit still, so neither should you have to. We strive to
+              help our staff further their careers, find enjoyment in what they
+              do and upskill their abilities. If you're interested in
+              embetterment through things like on-the-job degree programmes,
+              mentorship sessions, career change schemes and personal
+              development plans, you'll love what we have to offer.
+            </p>
+            <button class="btn primary extra-wide">
+              Employment journeys &nbsp;
+              <p class="gt">></p>
+            </button>
+          </div>
+          <div class="image">
+            <div class="content">
+              <h3>Follow Emma's journey to finding her place at GoCo</h3>
+              <button class="btn primary wide">
+                Read
+                <p class="gt">></p>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
       <section class="reviews">
-        <div class="glassdoorReview">
-          <img src="assets/glassdoor_logotype.png" alt="" />
-          <h3>
-            <q>Dynamic, industry-leading environment with great benefits</q>
-          </h3>
-          <p>Former Employee, Content Specialist in Newport, Wales</p>
-          <p><small>A selected review from Glassdoor, October 2020</small></p>
-          <button class="btn glassdoor wide">
-            More Reviews &nbsp;
-            <p class="gt">></p>
-          </button>
-        </div>
-        <div class="cpoMessage">
-          <h4>
-            <q>
-              We support our people not only through their professional
-              development but also with their work-life balance, health and
-              wellbeing.
-            </q>
-          </h4>
-          <h4>Alex Currie</h4>
-          <p>Chief People Officer</p>
+        <div class="container flex column">
+          <div class="glassdoorReview auto">
+            <img src="assets/glassdoor_logotype.png" alt="" />
+            <h3>
+              <q>Dynamic, industry-leading environment with great benefits</q>
+            </h3>
+            <p>Former Employee, Content Specialist in Newport, Wales</p>
+            <p><small>A selected review from Glassdoor, October 2020</small></p>
+            <button class="btn glassdoor">
+              More Reviews &nbsp;
+              <p class="gt">></p>
+            </button>
+          </div>
+          <div class="cpoMessage auto">
+            <div class="content">
+              <h4>
+                <q
+                  >We support our people not only through their professional
+                  development but also with their work-life balance, health and
+                  wellbeing.</q
+                >
+              </h4>
+              <h4>Alex Currie</h4>
+              <p>Chief People Officer</p>
+            </div>
+          </div>
         </div>
       </section>
       <section class="cards">
-        <div class="card">
-          <h1>Find out what's in it for you</h1>
-          <button class="btn primary wide">
-            Find out more
-            <p class="gt">></p>
-          </button>
-        </div>
-        <div class="card">
-          <h1>Thinking about applying for a job?</h1>
-          <button class="btn primary wide">
-            Search Jobs
-            <p class="gt">></p>
-          </button>
+        <div class="container flex">
+          <div class="card flex column">
+            <h3>Find out what's in it for you</h3>
+            <button class="btn primary wide">
+              Find out more
+              <p class="gt">></p>
+            </button>
+          </div>
+          <div class="card flex column">
+            <h3>Thinking about applying for a job?</h1>
+            <button class="btn primary wide">
+              Search Jobs
+              <p class="gt">></p>
+            </button>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <h4>We hire our talent directly. No recruitment agencies, sorry.</h4>
-      <p>Copyright (C) 2020 Gocompare.com Limited All Rights Reserved</p>
-      <p>
-        Gocompare.com Limited is registered in England and Wales (Company No.
-        5799376).
-      </p>
-      <p>
-        Registered office: Imperial House, Imperial Way, Newport, Gwent, NP10
-        8UH, United Kingdom
-      </p>
-      <a href="#">Modern Slavery Statement</a>
-      <a href="#">Cookie Policy</a>
-      <a href="#">Terms and Conditions</a>
-      <div>
+      <div class="container">
+        <h4>We hire our talent directly. No recruitment agencies, sorry.</h4>
+        <p>Copyright (C) 2020 Gocompare.com Limited All Rights Reserved</p>
+        <p>
+          Gocompare.com Limited is registered in England and Wales (Company No.
+          5799376).
+        </p>
+        <p>
+          Registered office: Imperial House, Imperial Way, Newport, Gwent, NP10
+          8UH, United Kingdom
+        </p>
+        <a href="#">Modern Slavery Statement</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Terms and Conditions</a>
         <div>
-          <p>PRIVACY POLICY</p>
-          <img src="assets/linkedin.png" alt="" />
+          <div>
+            <p>PRIVACY POLICY</p>
+            <img src="assets/linkedin.png" alt="" />
+          </div>
+          <p>POWERED BY PINPOINT</p>
         </div>
-        <p>POWERED BY PINPOINT</p>
       </div>
     </footer>
     <script src="index.js"></script>
