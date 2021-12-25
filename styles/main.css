@@ -29,6 +29,7 @@ h3,
 h4,
 a {
   color: #093025;
+  letter-spacing: -0.5px;
 }
 
 h1 {
@@ -48,6 +49,7 @@ p {
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
+  letter-spacing: -0.5px;
 }
 
 .flex {
@@ -366,5 +368,55 @@ nav ul li a:hover {
 
   .cards .container .card {
     margin: auto;
+  }
+}
+
+footer {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+footer .container .legal {
+  margin-bottom: 30px;
+}
+
+footer .container .legal h4 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+footer .container a {
+  line-height: 28px;
+  font-weight: 500;
+}
+
+footer .container a:hover {
+  color: #2fa38e;
+}
+
+footer .container .more-legal {
+  justify-content: space-between;
+}
+
+footer .container .more-legal .privacy {
+  align-items: center;
+}
+
+footer .container .more-legal a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #838a8d;
+}
+
+footer .container .more-legal .privacy img {
+  height: 16px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 399px) {
+  footer .container .more-legal {
+    flex-direction: column;
   }
 }
